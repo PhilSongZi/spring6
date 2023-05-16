@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="empone" class="com.atguigu.spring6.iocxml.ditest.Emp">
+        <property name="ename" value="lucy"></property>
+        <property name="age" value="20"></property>
+        <property name="loves">
+            <array>
+                <value>吃饭</value>
+                <value>睡觉</value>
+                <value>敲代码</value>
+            </array>
+        </property>
+    </bean>
+    <bean id="emptwo" class="com.atguigu.spring6.iocxml.ditest.Emp">
+        <property name="ename" value="jack"></property>
+        <property name="age" value="30"></property>
+        <property name="loves">
+            <array>
+                <value>吃</value>
+                <value>睡</value>
+                <value>摸鱼</value>
+            </array>
+        </property>
+    </bean>
+    <bean id="dept" class="com.atguigu.spring6.iocxml.ditest.Dept">
+        <property name="dname" value="技术开发部"></property>
+        <property name="empList">
+            <list>
+                <ref bean="empone"></ref>
+                <ref bean="emptwo"></ref>
+            </list>
+        </property>
+    </bean>
+</beans>
