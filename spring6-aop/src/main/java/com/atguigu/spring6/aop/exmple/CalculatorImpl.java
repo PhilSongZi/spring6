@@ -3,7 +3,7 @@ package com.atguigu.spring6.aop.exmple;
 /**
  * @author 小子松
  * @version 1.0
- * @description
+ * @description 基本实现类。
  * @date 2023/5/8 15:12
  */
 // 基本实现类
