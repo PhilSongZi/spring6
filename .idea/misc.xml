@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/spring6-resources/pom.xml" />
         <option value="$PROJECT_DIR$/spring6-resource/pom.xml" />
         <option value="$PROJECT_DIR$/spring6-i18n/pom.xml" />
+        <option value="$PROJECT_DIR$/spring6-validator/pom.xml" />
       </list>
     </option>
   </component>
